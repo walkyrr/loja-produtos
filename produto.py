@@ -18,4 +18,5 @@ class Produto:
               return
          if percentual > limite:
               percentual = limite
+              percentual = limite
          self.preco += (1 - percentual /100)
